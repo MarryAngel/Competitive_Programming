@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Documentos/ESTUDOS/TREINO/Competitive_Programming/URI",
-      "program": "d:/Documentos/ESTUDOS/TREINO/Competitive_Programming/URI/build/Debug/outDebug",
+      "cwd": "d:/Documentos/ESTUDOS/TREINO/Competitive_Programming/Beecrowd",
+      "program": "d:/Documentos/ESTUDOS/TREINO/Competitive_Programming/Beecrowd/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
