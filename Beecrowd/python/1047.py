@@ -5,7 +5,7 @@
 hora_inicial, minuto_inicial, hora_final, minuto_final = map(int, input().split())
 
 if hora_final > hora_inicial:
-    if minuto_final >= minuto_inicial:
+    if   >= minuto_inicial:
         print(f"O JOGO DUROU {hora_final - hora_inicial} HORA(S) E {minuto_final - minuto_inicial} MINUTO(S)")
     else:
         print(f"O JOGO DUROU {hora_final - hora_inicial - 1} HORA(S) E {minuto_final - minuto_inicial + 60} MINUTO(S)")

@@ -2,7 +2,9 @@
 # Dificuldade: Iniciante - Nível 1
 # Autor: Maria Angélica Krüger Miranda
 
-codigo, qtd = map(int, input().split())
+codigo, qtd = input().split() 
+qtd = int(qtd)
+codigo = int(codigo)
 
 if codigo == 1:
     print(f"Total: R$ {qtd*4.00:.2f}")
