@@ -1,4 +1,12 @@
-Find the longest common substring
-The substring can be any part of the String
-If there is no common substring, return 0
-The search is case sensitive
+8 4
+1 3 2 2 4 3 2 1
+1 3
+2 4
+3 2
+4 2
+8 4
+1 3 2 2 4 3 2 1
+1 3
+2 4
+3 2
+4 2

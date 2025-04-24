@@ -4,6 +4,7 @@
 
 def maior_substring(palavra1, palavra2):
     maior_substring = ""
+    subs = {}
     
     # palavra2 será sempre a menor palavra
     if len(palavra2) > len(palavra1):
@@ -13,8 +14,20 @@ def maior_substring(palavra1, palavra2):
     for i in range(len(palavra2)):
         for j in range(i + 1, len(palavra2) + 1):
             sub = palavra2[i:j]
-            if sub in palavra1 and len(sub) > len(maior_substring):
-                maior_substring = sub
+            
+            if sub in subs:
+                if subs[sub]:
+                    continue
+                else:
+                    break
+            
+            if sub in palavra1:
+                subs[sub] = True
+                if len(sub) > len(maior_substring):
+                    maior_substring = sub
+            else:
+                subs[sub] = False
+                break
                 
     return len(maior_substring)
 
